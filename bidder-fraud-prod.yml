@@ -2,7 +2,7 @@ debug: false
 
 spring:
   application:
-    name: octillion-bidder-fraud
+    name: bidder-fraud
 management:
   server:
     port: 8085
