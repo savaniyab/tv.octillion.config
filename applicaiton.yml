@@ -1,0 +1,28 @@
+
+debug: false
+
+spring:
+  application:
+    name: bidder-fraud
+management:
+  server:
+    port: 8085
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env,beans"
+  endpoint:
+    shutdown:
+      enabled: false
+
+fraud:
+  suffix: ""
+  path:
+    source: "/octillion/data/s3/fraud/files"
+    destination: "/octillion/data/fraud"
+    octillion-black-list: "/octillion/data/s3/fraud/blacklist-files"
+    octillion-white-list: "/octillion/data/s3/fraud/whitelist-files"
+  index:
+    interval: 30    # Minutes
+prop-1: this is testing from git:applicaiton -1 2 3 4
