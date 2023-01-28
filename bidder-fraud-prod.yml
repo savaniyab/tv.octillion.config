@@ -20,7 +20,7 @@ fraud:
   path:
     source: "/octillion/data/s3/fraud/files"
     destination: "/octillion/data/fraud"
-    octillion-black-list: "/octillion/data/s3/fraud/blacklist-files"
+    octillion-black-list: "/octillion/data/s3/fraud/blacklist-files111"
     octillion-white-list: "/octillion/data/s3/fraud/whitelist-files"
   index:
     interval: 30    # Minutes
