@@ -20,8 +20,8 @@ fraud:
   path:
     source: "/octillion/data/s3/fraud/files"
     destination: "/octillion/data/fraud"
-    octillion-black-list: "/octillion/data/s3/fraud/blacklist-files111"
+    octillion-black-list: "/octillion/data/s3/fraud/blacklist-files222"
     octillion-white-list: "/octillion/data/s3/fraud/whitelist-files"
   index:
     interval: 30    # Minutes
-prop1: this is testing from git:prod ttttttttttttttttttttt
+prop1: this is testing from git:prod 
