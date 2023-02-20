@@ -24,4 +24,4 @@ fraud:
     octillion-white-list: "/octillion/data/s3/fraud/whitelist-files"
   index:
     interval: 30    # Minutes
-prop1: this is testing from git:prod tttttt 111111111111
+prop1: this is testing from git:prod 
